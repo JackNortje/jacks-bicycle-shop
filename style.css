@@ -1,0 +1,145 @@
+body {
+	background-color: #727474;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+	width: 100%;
+	display: flex;
+ 	justify-content: space-between;
+  	align-items: center;
+  	background-color: #919393;
+ 
+}
+
+#header-img {
+	width:300px;
+	padding: 10px 0 0 30px;
+}
+
+ul {
+	width: 100%;
+	margin: 0 0 0 250px;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+#about {
+	display:block;
+	background-color: #919393; 
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+  padding: 70px 0 0 0;
+}
+@media (max-width: 550px ){
+  h1 {
+    font-size: 1.25em;
+    margin-top: 30px;
+  }
+
+}
+p{
+	display: block;
+	justify-content: center;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+}
+#bikes{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 10px;
+}
+
+.gallery {
+	padding: 10px 10px;
+}
+
+iframe {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #EEEFEF,
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  }
+
+input[type=submit] {
+  background-color: #727474;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  border: white solid 1px;
+}
+.container {
+  border-radius: 5px;
+  background-color: #919393;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right:auto;
+}
+@media (min-width: 100px ){
+  .container {
+    width: 500px;
+  }
+
